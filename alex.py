@@ -80,7 +80,7 @@ percentile = int(settings("read")[1])
 batch_size = settings("read")[2]
 print("Using", percentile, "% of the dataset")
 
-train_directory = "./tiny_image_net/tiny-imagenet-200/train"
+train_directory = "./tiny-imagenet-200/train"
 data = load_dataset(train_directory, percentile)
 
 # Menu
